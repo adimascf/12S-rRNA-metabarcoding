@@ -1,0 +1,25 @@
+input:
+  project_name: "mammals-12S"
+  fastqs_path: "data/raw_data/fastqs"
+  reference_dir: "mammalian-12s-ref-seq"
+  metadata: "data/raw_data/12S-metadata-testing-samples.tsv"
+
+params:
+  report_name:
+    multiqc_report_name: "mammals-12"
+  preprocessing:
+    pair_end: 0 # 0 is false
+    trim_primer: 1 # 1 is true
+    primer_length: 18
+    num_samples: 6
+    reads_threshold: 100
+  classification:
+    pident: 0.8 # percent identification on pairwise alignment
+    min_consensus: 0.51
+  relative_abundance:
+    level: all
+  krona_chart:
+    group_by: sample-id
+    level: all
+
+

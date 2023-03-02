@@ -1,0 +1,8 @@
+139419	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus
+833	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae		
+457	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae		
+328	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae		
+212	Metazoa	Chordata	Mammalia	Carnivora	Phocidae		
+79	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa
+74	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris
+45	Metazoa	Chordata	Mammalia	Artiodactyla	Cervidae	Cervus	
