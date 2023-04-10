@@ -1,4 +1,4 @@
-configfile: 'config.yaml'
+configfile: 'config2.yaml'
 
 print(type(config))
 print(config)
@@ -9,7 +9,8 @@ metadata_path = config['input']['metadata']
 project_name = config['input']['project_name']
 
 if config['params']['preprocessing']['pair_end'] == 1:
-    pass
+    fastp_script = "codes/fastp_qc_pe.sh"
+    preprocessing_script = "codes/preprocessing.sh"
 elif config['params']['preprocessing']['pair_end'] == 0:
     fastp_script = "codes/fastp_qc.sh"
     preprocessing_script = "codes/preprocessing.sh"
@@ -23,6 +24,7 @@ min_cons = config['params']['classification']['min_consensus']
 group_by = config['params']['krona_chart']['group_by']
 
 # Outputs
+fastp_out = config['output']['fastp_out']
 rel_abund_report_name = "reports/" + project_name + ".xlsx"
 krona_report_name = "reports/" + "krona_" + project_name +".html"
 krona_title = "".join(krona_report_name.split('/')[1:])
@@ -34,11 +36,11 @@ rule run_fastp_preprocessing:
         script = fastp_script,
         input_path = fastqs_path
     params:
-        output_path = "data/processed_data/",
+        output_path = fastp_out,
         title = multiqc_name,
         output_report = "reports/"
     output:
-        directory("data/processed_data/fastqs"),
+        directory(fastp_out + "/fastqs"),
         "reports/" + multiqc_name + "_multiqc_report" + ".html"
     shell:
         """

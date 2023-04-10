@@ -4,3 +4,4 @@ mammalian-12s-ref-seq/
 .Rhistory
 .snakemake
 DADA2_denoising.log
+otter-12s/
