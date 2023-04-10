@@ -1,82 +1,26 @@
-[2023-04-10 10:23:53,359] multiqc                                            [DEBUG  ]  This is MultiQC v1.12
-[2023-04-10 10:23:53,360] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/adimascf/miniconda3/envs/quality_control/lib/python3.10/site-packages/multiqc_config.yaml
-[2023-04-10 10:23:53,360] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/adimascf/.multiqc_config.yaml
-[2023-04-10 10:23:53,360] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
-[2023-04-10 10:23:53,360] multiqc                                            [DEBUG  ]  Command used: /home/adimascf/miniconda3/envs/quality_control/bin/multiqc --outdir reports/ --title otter-12 otter-12s/processed/
-[2023-04-10 10:23:54,060] multiqc                                            [WARNING]  MultiQC Version v1.14 now available!
-[2023-04-10 10:23:54,061] multiqc                                            [DEBUG  ]  Command     : /home/adimascf/miniconda3/envs/quality_control/bin/multiqc --outdir reports/ --title otter-12 otter-12s/processed/
-[2023-04-10 10:23:54,061] multiqc                                            [DEBUG  ]  Working dir : /home/adimascf/pandu/mammals-12s
-[2023-04-10 10:23:54,061] multiqc                                            [DEBUG  ]  Template    : default
-[2023-04-10 10:23:54,061] multiqc                                            [DEBUG  ]  Running Python 3.10.6 | packaged by conda-forge | (main, Aug 22 2022, 20:36:39) [GCC 10.4.0]
-[2023-04-10 10:23:54,061] multiqc                                            [INFO   ]  Report title: otter-12
-[2023-04-10 10:23:54,062] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, odgi, pangolin, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
-[2023-04-10 10:23:54,064] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpv_zxh52s
-[2023-04-10 10:23:54,247] multiqc                                            [INFO   ]  Search path : /home/adimascf/pandu/mammals-12s/otter-12s/processed
-[2023-04-10 10:23:54,269] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122427_R2_001.fastq.gz
-[2023-04-10 10:23:54,270] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122428_R1_001.fastq.gz
-[2023-04-10 10:23:54,270] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122425_R2_001.fastq.gz
-[2023-04-10 10:23:54,270] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122428_R2_001.fastq.gz
-[2023-04-10 10:23:54,271] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122424_R2_001.fastq.gz
-[2023-04-10 10:23:54,271] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122426_R1_001.fastq.gz
-[2023-04-10 10:23:54,271] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122425_R1_001.fastq.gz
-[2023-04-10 10:23:54,271] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122429_R2_001.fastq.gz
-[2023-04-10 10:23:54,271] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122426_R2_001.fastq.gz
-[2023-04-10 10:23:54,271] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122424_R1_001.fastq.gz
-[2023-04-10 10:23:54,271] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122427_R1_001.fastq.gz
-[2023-04-10 10:23:54,271] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SRR10122429_R1_001.fastq.gz
-[2023-04-10 10:23:54,935] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.5.2
-[2023-04-10 10:23:54,936] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.5.2
-[2023-04-10 10:23:54,966] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'SRR10122429.fastp.json'
-[2023-04-10 10:23:54,966] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): SRR10122429.fastp.json
-[2023-04-10 10:23:54,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122429.fastp.json
-[2023-04-10 10:23:54,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: SRR10122429.fastp.json
-[2023-04-10 10:23:54,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: SRR10122429.fastp.json
-[2023-04-10 10:23:54,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: SRR10122429.fastp.json
-[2023-04-10 10:23:54,968] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: SRR10122429.fastp.json
-[2023-04-10 10:23:54,968] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: SRR10122429.fastp.json
-[2023-04-10 10:23:54,974] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'SRR10122424.fastp.json'
-[2023-04-10 10:23:54,974] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): SRR10122424.fastp.json
-[2023-04-10 10:23:54,974] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122424.fastp.json
-[2023-04-10 10:23:54,974] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: SRR10122424.fastp.json
-[2023-04-10 10:23:54,975] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: SRR10122424.fastp.json
-[2023-04-10 10:23:54,975] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: SRR10122424.fastp.json
-[2023-04-10 10:23:54,975] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: SRR10122424.fastp.json
-[2023-04-10 10:23:54,975] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: SRR10122424.fastp.json
-[2023-04-10 10:23:54,980] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'SRR10122428.fastp.json'
-[2023-04-10 10:23:54,980] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): SRR10122428.fastp.json
-[2023-04-10 10:23:54,981] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122428.fastp.json
-[2023-04-10 10:23:54,981] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: SRR10122428.fastp.json
-[2023-04-10 10:23:54,981] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: SRR10122428.fastp.json
-[2023-04-10 10:23:54,981] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: SRR10122428.fastp.json
-[2023-04-10 10:23:54,982] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: SRR10122428.fastp.json
-[2023-04-10 10:23:54,982] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: SRR10122428.fastp.json
-[2023-04-10 10:23:54,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'SRR10122426.fastp.json'
-[2023-04-10 10:23:54,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): SRR10122426.fastp.json
-[2023-04-10 10:23:54,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122426.fastp.json
-[2023-04-10 10:23:54,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: SRR10122426.fastp.json
-[2023-04-10 10:23:54,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: SRR10122426.fastp.json
-[2023-04-10 10:23:54,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: SRR10122426.fastp.json
-[2023-04-10 10:23:54,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: SRR10122426.fastp.json
-[2023-04-10 10:23:54,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: SRR10122426.fastp.json
-[2023-04-10 10:23:54,988] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'SRR10122427.fastp.json'
-[2023-04-10 10:23:54,988] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): SRR10122427.fastp.json
-[2023-04-10 10:23:54,988] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122427.fastp.json
-[2023-04-10 10:23:54,988] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: SRR10122427.fastp.json
-[2023-04-10 10:23:54,988] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: SRR10122427.fastp.json
-[2023-04-10 10:23:54,988] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: SRR10122427.fastp.json
-[2023-04-10 10:23:54,989] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: SRR10122427.fastp.json
-[2023-04-10 10:23:54,989] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: SRR10122427.fastp.json
-[2023-04-10 10:23:54,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'SRR10122425.fastp.json'
-[2023-04-10 10:23:54,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): SRR10122425.fastp.json
-[2023-04-10 10:23:54,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122425.fastp.json
-[2023-04-10 10:23:54,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: SRR10122425.fastp.json
-[2023-04-10 10:23:54,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: SRR10122425.fastp.json
-[2023-04-10 10:23:54,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: SRR10122425.fastp.json
-[2023-04-10 10:23:54,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: SRR10122425.fastp.json
-[2023-04-10 10:23:54,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: SRR10122425.fastp.json
-[2023-04-10 10:23:54,992] multiqc.modules.fastp.fastp                        [INFO   ]  Found 6 reports
-[2023-04-10 10:23:55,025] multiqc                                            [INFO   ]  Compressing plot data
-[2023-04-10 10:23:55,349] multiqc                                            [INFO   ]  Report      : reports/otter-12_multiqc_report.html
-[2023-04-10 10:23:55,350] multiqc                                            [INFO   ]  Data        : reports/otter-12_multiqc_report_data
-[2023-04-10 10:23:55,350] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpv_zxh52s/multiqc_data' to 'reports/otter-12_multiqc_report_data'
-[2023-04-10 10:23:55,524] multiqc                                            [INFO   ]  MultiQC complete
+[2023-04-10 11:34:36,870] multiqc                                            [DEBUG  ]  This is MultiQC v1.14
+[2023-04-10 11:34:36,870] multiqc                                            [DEBUG  ]  Command used: /home/adimascf/miniconda3/envs/quality_control/bin/multiqc --outdir reports/ --title otter-12 otter-12s/processed/json
+[2023-04-10 11:34:37,907] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.14
+[2023-04-10 11:34:37,907] multiqc                                            [DEBUG  ]  Working dir : /home/adimascf/pandu/mammals-12s
+[2023-04-10 11:34:37,907] multiqc                                            [DEBUG  ]  Template    : default
+[2023-04-10 11:34:37,907] multiqc                                            [DEBUG  ]  Running Python 3.10.6 | packaged by conda-forge | (main, Aug 22 2022, 20:36:39) [GCC 10.4.0]
+[2023-04-10 11:34:37,907] multiqc                                            [INFO   ]  Report title: otter-12
+[2023-04-10 11:34:37,909] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umitools, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, cellranger, snpsplit, odgi, pangolin, nextclade, humid, kat, leehom, adapterRemoval, bbduk, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2023-04-10 11:34:37,913] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpew09hawg
+[2023-04-10 11:34:38,139] multiqc                                            [INFO   ]  Search path : /home/adimascf/pandu/mammals-12s/otter-12s/processed/json
+[2023-04-10 11:34:38,174] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: []
+[2023-04-10 11:34:38,931] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.5.2
+[2023-04-10 11:34:38,938] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.5.2
+[2023-04-10 11:34:38,939] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2023-04-10 11:34:38,946] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122429.fastp.json
+[2023-04-10 11:34:38,951] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122424.fastp.json
+[2023-04-10 11:34:38,956] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122428.fastp.json
+[2023-04-10 11:34:38,962] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122426.fastp.json
+[2023-04-10 11:34:38,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122427.fastp.json
+[2023-04-10 11:34:38,975] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR10122425.fastp.json
+[2023-04-10 11:34:38,976] multiqc.modules.fastp.fastp                        [INFO   ]  Found 6 reports
+[2023-04-10 11:34:39,109] multiqc                                            [INFO   ]  Compressing plot data
+[2023-04-10 11:34:39,802] multiqc                                            [INFO   ]  Report      : reports/otter-12_multiqc_report.html
+[2023-04-10 11:34:39,803] multiqc                                            [INFO   ]  Data        : reports/otter-12_multiqc_report_data
+[2023-04-10 11:34:39,803] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpew09hawg/multiqc_data' to 'reports/otter-12_multiqc_report_data'
+[2023-04-10 11:34:39,977] multiqc                                            [INFO   ]  MultiQC complete
