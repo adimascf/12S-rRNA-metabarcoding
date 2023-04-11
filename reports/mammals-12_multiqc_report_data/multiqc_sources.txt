@@ -1,7 +1,0 @@
-Module	Section	Sample Name	Source
-fastp	all_sections	sample03_S3_L001_R1_001	/home/adimascf/pandu/mammals-12s/data/processed_data/sample03_S3_L001.fastp.json
-fastp	all_sections	sample01_S1_L001_R1_001	/home/adimascf/pandu/mammals-12s/data/processed_data/sample01_S1_L001.fastp.json
-fastp	all_sections	sample91_S91_L001_R1_001	/home/adimascf/pandu/mammals-12s/data/processed_data/sample91_S91_L001.fastp.json
-fastp	all_sections	sample92_S92_L001_R1_001	/home/adimascf/pandu/mammals-12s/data/processed_data/sample92_S92_L001.fastp.json
-fastp	all_sections	sample02_S2_L001_R1_001	/home/adimascf/pandu/mammals-12s/data/processed_data/sample02_S2_L001.fastp.json
-fastp	all_sections	sample93_S93_L001_R1_001	/home/adimascf/pandu/mammals-12s/data/processed_data/sample93_S93_L001.fastp.json

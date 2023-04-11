@@ -1,9 +1,0 @@
-149503	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Rattus	
-3401	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Otomys	
-2104	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus
-1994	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Rattus	
-1210	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Rattus	
-514	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus
-463	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris
-380	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa
-375	Metazoa	Chordata	Mammalia	Artiodactyla	Cervidae	Cervus	

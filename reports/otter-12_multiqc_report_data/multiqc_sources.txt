@@ -1,7 +1,0 @@
-Module	Section	Sample Name	Source
-fastp	all_sections	SRR10122429_R1_001	/home/adimascf/pandu/mammals-12s/otter-12s/processed/json/SRR10122429.fastp.json
-fastp	all_sections	SRR10122424_R1_001	/home/adimascf/pandu/mammals-12s/otter-12s/processed/json/SRR10122424.fastp.json
-fastp	all_sections	SRR10122428_R1_001	/home/adimascf/pandu/mammals-12s/otter-12s/processed/json/SRR10122428.fastp.json
-fastp	all_sections	SRR10122426_R1_001	/home/adimascf/pandu/mammals-12s/otter-12s/processed/json/SRR10122426.fastp.json
-fastp	all_sections	SRR10122427_R1_001	/home/adimascf/pandu/mammals-12s/otter-12s/processed/json/SRR10122427.fastp.json
-fastp	all_sections	SRR10122425_R1_001	/home/adimascf/pandu/mammals-12s/otter-12s/processed/json/SRR10122425.fastp.json

@@ -1,7 +1,0 @@
-Sample	command
-sample01_S1_L001_R1_001	fastp -i data/raw_data/fastqs/sample01_S1_L001_R1_001.fastq.gz -o data/processed_data//fastqs/sample01_S1_L001_R1_001.fastq.gz --json data/processed_data//sample01_S1_L001.fastp.json 
-sample02_S2_L001_R1_001	fastp -i data/raw_data/fastqs/sample02_S2_L001_R1_001.fastq.gz -o data/processed_data//fastqs/sample02_S2_L001_R1_001.fastq.gz --json data/processed_data//sample02_S2_L001.fastp.json 
-sample03_S3_L001_R1_001	fastp -i data/raw_data/fastqs/sample03_S3_L001_R1_001.fastq.gz -o data/processed_data//fastqs/sample03_S3_L001_R1_001.fastq.gz --json data/processed_data//sample03_S3_L001.fastp.json 
-sample91_S91_L001_R1_001	fastp -i data/raw_data/fastqs/sample91_S91_L001_R1_001.fastq.gz -o data/processed_data//fastqs/sample91_S91_L001_R1_001.fastq.gz --json data/processed_data//sample91_S91_L001.fastp.json 
-sample92_S92_L001_R1_001	fastp -i data/raw_data/fastqs/sample92_S92_L001_R1_001.fastq.gz -o data/processed_data//fastqs/sample92_S92_L001_R1_001.fastq.gz --json data/processed_data//sample92_S92_L001.fastp.json 
-sample93_S93_L001_R1_001	fastp -i data/raw_data/fastqs/sample93_S93_L001_R1_001.fastq.gz -o data/processed_data//fastqs/sample93_S93_L001_R1_001.fastq.gz --json data/processed_data//sample93_S93_L001.fastp.json 

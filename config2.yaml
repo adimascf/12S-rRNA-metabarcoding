@@ -2,10 +2,10 @@ input:
   project_name: "otter-12S"
   fastqs_path: "otter-12s/data-fqs"
   reference_dir: "mammalian-12s-ref-seq"
-  metadata: "data/raw_data/12S-metadata-testing-samples.tsv"
+  metadata: "otter-12s/metadata-otter.tsv"
 
 output:
-  fastp_out: "otter-12s/processed"
+  processed_data: "otter-12s/processed"
 
 params:
   report_name:
@@ -13,9 +13,10 @@ params:
   preprocessing:
     pair_end: 1 # 0 is false
     trim_primer: 1 # 1 is true
-    primer_length: 18
+    primer_length: 0
     num_samples: 6
-    reads_threshold: 100
+    reads_threshold: 100 # minimum feature count of the taxon that can be assigned on the report
+    truncation_length: 100 # if read length longer than this, it will be truncated
   classification:
     pident: 0.8 # percent identification on pairwise alignment
     min_consensus: 0.51

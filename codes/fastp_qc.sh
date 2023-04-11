@@ -7,11 +7,12 @@ conda activate quality_control
 ls $1 | grep "_R1_001.fastq.gz" | sed 's/_R1_001.fastq.gz//' > file
 
 mkdir -p $2/fastqs/
+mkdir -p $2/json
 
 cat file | parallel --bar -j 2 \
         fastp -i $1/{}_R1_001.fastq.gz \
                 -o $2/fastqs/{}_R1_001.fastq.gz \
-                --json $2/{}.fastp.json
+                --json $2/json/{}.fastp.json
 
 rm file
 rm fastp.html

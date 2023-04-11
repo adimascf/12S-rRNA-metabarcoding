@@ -4,6 +4,9 @@ input:
   reference_dir: "mammalian-12s-ref-seq"
   metadata: "data/raw_data/12S-metadata-testing-samples.tsv"
 
+output:
+  processed_data: "data/processed"
+
 params:
   report_name:
     multiqc_report_name: "mammals-12"
@@ -13,6 +16,7 @@ params:
     primer_length: 18
     num_samples: 6
     reads_threshold: 100
+    truncation_length: 135 # if read length longer than this, it will be truncated
   classification:
     pident: 0.8 # percent identification on pairwise alignment
     min_consensus: 0.51
