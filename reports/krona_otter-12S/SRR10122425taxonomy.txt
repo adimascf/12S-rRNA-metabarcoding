@@ -1,0 +1,9 @@
+18694	Metazoa	Chordata	Mammalia				
+7425	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae		
+1985	Metazoa	Chordata	Mammalia	Rodentia	Caviidae	Dolichotis	Dolichotis salinicola
+1854	Unassigned						
+924	Unassigned						
+702	Unassigned						
+651	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae	Martes	
+282	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	
+77	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens

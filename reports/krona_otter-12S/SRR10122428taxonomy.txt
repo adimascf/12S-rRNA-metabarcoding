@@ -1,0 +1,8 @@
+45101	Metazoa	Chordata	Mammalia	Rodentia	Caviidae	Dolichotis	Dolichotis salinicola
+26849	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae		
+6927	Metazoa	Chordata	Mammalia	Rodentia	Dinomyidae	Dinomys	Dinomys branickii
+347	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	
+233	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens
+70	Metazoa	Chordata	Mammalia	Rodentia	Echimyidae	Proechimys	
+24	Unassigned						
+3	Metazoa	Chordata	Mammalia				

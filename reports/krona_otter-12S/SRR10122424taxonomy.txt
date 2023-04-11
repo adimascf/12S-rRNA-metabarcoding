@@ -1,0 +1,8 @@
+30531	Unassigned						
+14276	Metazoa	Chordata	Mammalia	Rodentia	Caviidae	Dolichotis	Dolichotis salinicola
+7191	Unassigned						
+7187	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae		
+2311	Unassigned						
+678	Unassigned						
+47	Metazoa	Chordata	Mammalia	Rodentia	Echimyidae	Proechimys	
+18	Metazoa	Chordata	Mammalia				

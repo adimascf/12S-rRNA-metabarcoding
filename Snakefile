@@ -1,4 +1,4 @@
-configfile: 'config2.yaml'
+configfile: 'config.yaml'
 
 print(type(config))
 print(config)

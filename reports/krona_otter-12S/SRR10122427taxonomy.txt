@@ -1,0 +1,7 @@
+67620	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae		
+21372	Metazoa	Chordata	Mammalia	Rodentia	Caviidae	Dolichotis	Dolichotis salinicola
+13007	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae	Martes	
+3877	Metazoa	Chordata	Mammalia	Rodentia	Echimyidae	Proechimys	
+939	Metazoa	Chordata	Mammalia	Rodentia	Sciuridae	Ratufa	Ratufa bicolor
+784	Metazoa	Chordata	Mammalia				
+631	Unassigned						
