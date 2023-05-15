@@ -1,6 +1,6 @@
 ---
 title: "Snakemake workflow for analyzing the 12S rRNA barcoding sequencing data"
-date: `r Sys.Date()`
+date: "`r Sys.Date()`"
 output:
  github_document:
   html_preview: false
@@ -11,7 +11,6 @@ This Snakemake pipeline is built for processing raw Illumina metabarcoding data,
 
 ```{r library_calls, include=FALSE}
 library(tidyverse)
-# library(data.table)
 library(rmarkdown)
 ```
 
