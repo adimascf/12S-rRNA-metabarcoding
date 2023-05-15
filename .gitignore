@@ -5,3 +5,5 @@ mammalian-12s-ref-seq/
 .snakemake
 DADA2_denoising.log
 otter-12s/
+.Rproj.user
+12S-rRNA-metabarcoding.Rproj
