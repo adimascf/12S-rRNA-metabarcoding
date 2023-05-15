@@ -1,0 +1,38 @@
+---
+title: "Snakemake workflow for analyzing the 12S rRNA barcoding sequencing data"
+date: `r Sys.Date()`
+output:
+ github_document:
+  html_preview: false
+---
+
+This Snakemake pipeline is built for processing raw Illumina metabarcoding data, identifying species in the samples, and counting abundance. It will give abundance report per taxon level in excel and generate krona plot.
+
+
+```{r library_calls, include=FALSE}
+library(tidyverse)
+# library(data.table)
+library(rmarkdown)
+```
+
+### Dependencies:
+
+-   [QIIME 2 release: 2023.2](https://docs.qiime2.org/2023.2/install/native/)
+-   [snakemake v. 7.25.3](https://snakemake.readthedocs.io/en/stable/)
+-   `wget`
+-   `r R.version.string`
+    -   `BiocManager` (v. `r packageVersion("BiocManager")`)
+    -   `tidyverse` (v. `r packageVersion("tidyverse")`)
+    -   `phyloseq` (v. `r packageVersion("phyloseq")`)
+    -   `ggplot2` (v. `r packageVersion("ggplot2")`)
+    -   `psadd` (v. `r packageVersion("psadd")`))
+    -   `qiime2R` (v. `r packageVersion("qiime2R")`)
+    -   `xlsx` (v. `r packageVersion("xlsx")`)
+    -   `remotes` (v. `r packageVersion("remotes")`)
+    *   `rmarkdown` (v. `r packageVersion("rmarkdown")`)
+
+### My computer
+
+```{r sesion_info, echo=FALSE}
+sessionInfo()
+```
